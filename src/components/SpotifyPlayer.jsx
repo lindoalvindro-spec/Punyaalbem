@@ -179,10 +179,10 @@ export default function SpotifyPlayer({ autoPlay = false }) {
             border: '1.5px solid #1DB954',
           }}>
             <img
-              src="/felicia 3.jpeg"
+              src="/al 5.jpeg"
               alt="My Love"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              onError={(e) => { e.target.src = '/felicia 3.jpeg'; }}
+              onError={(e) => { e.target.src = '/al 5.jpeg'; }}
             />
             {playing && (
               <div className="anim-spin" style={{
@@ -273,10 +273,10 @@ export default function SpotifyPlayer({ autoPlay = false }) {
             background: '#282828',
           }}>
             <img
-              src="/felicia 3.jpeg"
+              src="/al 5.jpeg"
               alt="My Love"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              onError={(e) => { e.target.src = '/felicia 3.jpeg'; }}
+              onError={(e) => { e.target.src = '/al 5.jpeg'; }}
             />
             {playing && (
               <div style={{

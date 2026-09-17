@@ -113,9 +113,9 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
                 boxShadow: '0 12px 32px rgba(59,130,246,0.25)',
                 position: 'relative', zIndex: 1
               }}>
-                <img src="/felicia 1.jpeg" alt="Felicia" style={{
+                <img src="/al 4.jpeg" alt="Albern" style={{
                   width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center center'
-                }} onError={(e) => { e.target.src = '/felicia 1.jpeg'; }} />
+                }} onError={(e) => { e.target.src = '/al 4.jpeg'; }} />
               </div>
             </div>
 
@@ -124,7 +124,7 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
               fontFamily: 'var(--font-cute)', fontSize: '0.8rem', color: '#4a6b34',
               letterSpacing: 2.5, textTransform: 'uppercase', marginBottom: 4, fontWeight: 700
             }}>
-              Kartu Ucapan Ulang Tahun 🌸✨
+              Kartu Ucapan Ulang Tahun 🎂✨
             </h3>
             
             <div className="reveal-el" style={{ textAlign: 'center', marginBottom: 18 }}>
@@ -132,7 +132,7 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
                 fontFamily: 'var(--font-display)', fontSize: '2.5rem', color: '#1e40af',
                 lineHeight: 1, margin: 0
               }}>
-                Felicia 🌸✨
+                Albern 🌿✨
               </h1>
             </div>
 
@@ -146,16 +146,16 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
               fontFamily: 'var(--font-body)', fontSize: '0.86rem', color: 'var(--berry-light)',
               lineHeight: 1.7, marginBottom: 24, fontStyle: 'italic', padding: '0 6px'
             }}>
-              "Selamat ulang tahun yang ke-15 yaa sayang. Semoga di usiamu yang sekarang kamu selalu diberikan kesehatan, kebahagiaan, dimudahkan dalam segala urusan, dan tercapai semua cita-citamu. Jangan lupa bahagia yaa sayang, you deserve all the happiness in the world! ❤️"
+              "Happy level up, Albern! I hope you have a great day on ur birthday. May your health remain good and your diet regular, and may your birthday be filled with joy and happiness. Always smile because i love ur smile! I want u to be happy forever. Happy 26th Birthday! 💙✨"
             </p>
 
             {/* Sign Off */}
             <div className="reveal-el" style={{ marginBottom: 10 }}>
               <p style={{ fontSize: '0.72rem', color: '#4a6b34', marginBottom: 4, textTransform: 'uppercase', letterSpacing: 1.2, fontWeight: 700 }}>
-                With Love & Best Wishes 💖✨
+                With Love & Best Wishes 💙✨
               </p>
               <p style={{ fontFamily: 'var(--font-display)', fontSize: '1.7rem', color: '#1e40af' }}>
-                Happy 15th Birthday, Felicia 🌸✨
+                Happy 26th Birthday, Albern 🌿🎂
               </p>
             </div>
 

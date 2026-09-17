@@ -198,7 +198,7 @@ export default function FlowerScreen({ onRestart }) {
                 letterSpacing: '-0.5px',
                 textShadow: '0 2px 10px rgba(59, 130, 246, 0.2)',
               }}>
-                Felicia 🌸✨
+                Albern 🌿✨
               </h2>
             </div>
 
@@ -215,7 +215,7 @@ export default function FlowerScreen({ onRestart }) {
               textAlign: 'left',
             }}>
               <p style={{ marginBottom: 12, fontWeight: 500 }}>
-                Selamat ulang tahun yang ke-15 yaa sayang. Semoga di usia yang baru ini, kamu senantiasa dikelilingi kebahagiaan, kesehatan, dan senyum manis yang selalu mekar. Makasi udah lahir dan hadir di hidup aku. Happy birthday sayanggg, i love you! 🫶❤️
+                Happy level up, Albern! I hope you have a great day on ur birthday. I will always cheering u up from here and always wish u all the best. May your health remain good and your diet regular. Always smile because i love ur smile! Happy 26th birthday again! 💐💙
               </p>
               
               <div style={{
@@ -227,7 +227,7 @@ export default function FlowerScreen({ onRestart }) {
                 color: '#1e40af',
                 lineHeight: 1.35,
               }}>
-                Selamat Ulang Tahun Ke-15, Felicia 🌸✨
+                Happy 26th Birthday, Albern 🌿✨
               </div>
             </div>
 

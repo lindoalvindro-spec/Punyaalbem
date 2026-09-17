@@ -9,13 +9,16 @@ export default function MemoryGallery({ onNext }) {
   const containerRef = useRef(null);
 
   const exhibits = [
-    { src: '/felicia 1.jpeg', tag: 'EXHIBIT #01', title: 'Beautiful Radiance 🌟' },
-    { src: '/felicia 2.jpeg', tag: 'EXHIBIT #02', title: 'Sweet Smile ✨' },
-    { src: '/felicia 3.jpeg', tag: 'EXHIBIT #03', title: 'Cute & Joyful 🌸' },
-    { src: '/felicia 4.jpeg', tag: 'EXHIBIT #04', title: 'Warm Atmosphere ☀️' },
-    { src: '/felicia 5.jpeg', tag: 'EXHIBIT #05', title: 'Precious Moments 💎' },
-    { src: '/felicia 6.jpeg', tag: 'EXHIBIT #06', title: 'Sweet Memories 💖' },
-    { src: '/felicia 7.jpeg', tag: 'EXHIBIT #07', title: 'Favorite View 🌺' },
+    { src: '/al 1.jpeg', tag: 'EXHIBIT #01', title: 'Charming Albern 🌟' },
+    { src: '/al 2.jpeg', tag: 'EXHIBIT #02', title: 'That Genuine Smile ✨' },
+    { src: '/al 3.jpeg', tag: 'EXHIBIT #03', title: 'Cool & Calm 🌿' },
+    { src: '/al 4.jpeg', tag: 'EXHIBIT #04', title: 'Warm Atmosphere ☀️' },
+    { src: '/al 5.jpeg', tag: 'EXHIBIT #05', title: 'Precious Moments 💎' },
+    { src: '/al 6.jpeg', tag: 'EXHIBIT #06', title: 'Sweet Memories 💙' },
+    { src: '/al 7.jpeg', tag: 'EXHIBIT #07', title: 'Favorite View 🍃' },
+    { src: '/al 8.jpeg', tag: 'EXHIBIT #08', title: 'Always Cheering You Up ☘️' },
+    { src: '/al 9.jpeg', tag: 'EXHIBIT #09', title: 'Level 26 Energy 🎂' },
+    { src: '/al 10.jpeg', tag: 'EXHIBIT #10', title: 'Best Wishes Always 🥂' },
   ];
 
   useEffect(() => {
@@ -116,7 +119,7 @@ export default function MemoryGallery({ onNext }) {
           fontFamily: 'var(--font-display)', fontSize: '2.2rem', color: '#1e40af',
           lineHeight: 1.15, marginBottom: 6, letterSpacing: '-0.5px'
         }}>
-          Galeri Foto Felicia 🌸✨
+          Galeri Foto Albern 🌿✨
         </h1>
       </div>
 
@@ -162,7 +165,7 @@ export default function MemoryGallery({ onNext }) {
               width: '100%', height: '100%', objectFit: 'cover',
               transformOrigin: 'center center'
             }}
-            onError={(e) => { e.target.src = '/felicia 1.jpeg'; }}
+            onError={(e) => { e.target.src = '/al 1.jpeg'; }}
           />
 
           {/* Lightbox Inspect Trigger */}
